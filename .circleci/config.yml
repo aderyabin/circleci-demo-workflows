@@ -48,11 +48,11 @@ workflows:
           filters:
             tags:
               only: /^config-test.*/
-      - "ruby-2.3"
+      - "ruby-2.3":
           filters:
             tags:
               only: /^config-test.*/
-      - "ruby-2.4"
+      - "ruby-2.4":
           filters:
             tags:
               only: /^config-test.*/
