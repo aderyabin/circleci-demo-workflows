@@ -48,11 +48,17 @@ workflows:
           filters:
             tags:
               only: /^config-test.*/
+            branches:
+              ignore: /.*/
       - "ruby-2.3":
           filters:
             tags:
               only: /^config-test.*/
+            branches:
+              ignore: /.*/
       - "ruby-2.4":
           filters:
             tags:
               only: /^config-test.*/
+            branches:
+              ignore: /.*/
